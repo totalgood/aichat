@@ -45,3 +45,11 @@ MANIFEST
 
 # Data files should be explicitly force-added
 src/aichat/data/
+*.sqlite3
+*.sqlite
+
+# secrets
+secret*
+local_settings.py
+**/*secret*
+**/secrets.yml
